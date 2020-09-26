@@ -1,4 +1,5 @@
 // Logical AND
+// Returns TRUE if both operands are TRUE
 console.log(true && true); // True
 console.log(false && true); // False
 
@@ -8,5 +9,5 @@ let goodCreditSource = true;
 let eligibleForLoan = highIncome || goodCreditSource;
 console.log(eligibleForLoan); // True
 
-// Not operator
+// Not operator !
 console.log(!eligibleForLoan);

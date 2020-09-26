@@ -8,7 +8,12 @@ console.log("Mosh" || "Fero"); // "Mosh" => returns first truthy value
 // Result of logical expression in javascript is not necessary true or false
 // It depends on value of operands we have
 
+// When javascript tries to figure out (false || "Mosh") it change the value of  "Mosh" into truthy value
+
 // Truthy Falsy values
 
-// False: undefined, null, 0, false, "" NaN
-// Truthy: anything not falsy is truthy
+// False:
+// undefined, null, 0, false, "" NaN
+
+// Truthy:
+// anything not falsy is truthy

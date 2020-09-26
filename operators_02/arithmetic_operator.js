@@ -2,6 +2,7 @@
  * Arithmetic operators
  */
 
+// Using for performing mathematical operations
 let x = 10;
 let y = 3;
 
