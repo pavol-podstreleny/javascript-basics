@@ -5,7 +5,8 @@
 // CamelNotation for naming
 function createCircle(radius) {
   return {
-    radius,
+    radius, // If key and value are the same we can use just radius, -> not radius: radius
+    // Same as draw: function(){}
     draw() {
       console.log("draw");
     },

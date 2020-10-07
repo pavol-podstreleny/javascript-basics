@@ -14,8 +14,11 @@ let x = {};
 console.log(x.constructor);
 
 // Every object has constructor property
-// This property reference to function which created the object
+// This property reference to function which created the object!
 
 // new String(); '',"",``
 // new Boolean(); // true, false
 // new Number(); // 1, 2, 3
+
+let name = "Pavol";
+console.log(name.constructor); // Function: String
