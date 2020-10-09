@@ -14,7 +14,9 @@ const courses = [
 courses.sort((a, b) => {
   const nameA = a.name.toUpperCase();
   const nameB = b.name.toUpperCase();
-  if (nameA.name < nameB.name) return -1;
-  if (nameA.name > nameB.name) return 1;
+  if (nameA < nameB) return -1;
+  if (nameA > nameB) return 1;
   return 0;
 });
+
+console.log(courses);
