@@ -10,6 +10,9 @@ function walk() {
   console.log("Walk");
 }
 
+//We can not call run before it is declared => function expression is not working as function declaration
+//run()
+
 // Anonymouse Function expression
 let run = function () {
   console.log("run");
