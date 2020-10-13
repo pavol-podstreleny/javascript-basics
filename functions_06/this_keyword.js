@@ -3,7 +3,7 @@
 // If function if part of object => method
 // this reference object it self
 
-// Regular function => global object which is window object
+// Regular function => global object which is window object in browser and global in node
 
 /**
  * Example of first rule
@@ -21,6 +21,9 @@ video.stop = function () {
 
 video.stop();
 
+/***
+ * Example of the second rule
+ */
 // Reference to window / global
 function playVideo() {
   console.log(this);
